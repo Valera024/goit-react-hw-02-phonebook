@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  max-width: 150px;
+  border-radius: 20px;
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: rgb(23, 23, 223);
+  color: white;
+}
