@@ -29,7 +29,7 @@ class App extends Component {
     const newName = inputName.value
     const newNumber = inputNumber.value
     const {contacts} = this.state
-    if (contacts.some((contact) => contact.name === newName)) {
+    if (contacts.some((contact) => contact.name.toLowerCase() === newName.toLowerCase())) {
       alert(`${inputName.value} is already in contacts.`)
     } 
     else {
